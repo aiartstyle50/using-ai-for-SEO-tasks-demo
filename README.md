@@ -1,4 +1,4 @@
-# Using AI to Automate Expert SEO Tasks
+# Using AI to Automate Human-Level SEO Tasks
 
 Demo showcasing AI optimization of a high-level SEO task, illustrating potential for broader automation of expert-driven processes.
 
@@ -25,13 +25,13 @@ Clone the repository:
 
 ```sh
 git clone https://github.com/yourusername/using-ai-for-SEO-tasks-demo.git
-cd seo-page-type-analysis-demo```
+cd seo-page-type-analysis-demo
 
 Install the required Python packages:
 
 ```sh
 Copy code
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
 ###Usage
 
@@ -43,7 +43,7 @@ Run the Script:
 
 ```sh
 Copy code
-python main.py```
+python main.py
 
 - Input Your Target Keyword and Page URL:
 
