@@ -35,7 +35,7 @@ Copy code
 pip install -r requirements.txt
 ```
 
-###Usage
+### Usage
 
 - Configure API Keys:
 
@@ -53,7 +53,7 @@ python main.py
 Update the keyword variable with the keyword you want to rank for.
 Update the target_url variable with the URL of the page you want to rank for this keyword.
 
-##Code Explanation
+### Code Explanation
 
 Here's a breakdown of the main components of the script:
 
@@ -62,6 +62,12 @@ scrape_content(url): Scrapes the headings and text content from the provided URL
 analyze_content(headings, text): Uses prompts and crawled data to classify the type of page based on its content.
 Main Execution: Combines the above functions to compare the target page with the top-ranking pages and provides a final assessment.
 
-##Conclusion
+### Example Output: 
+
+The below output shows an example final output. The program has crawled the ranking results, compared it with your page, and determined that your page is not the correct type to rank for this keyword. Thus completing the check.
+
+```Page Type Check Result: The majority of ranking content are of page type: (('page_type', 'PLP/Category Page'),) and your content seems to be of page type (('page_type', 'Content Article'),). To rank for this keyword, you will likely need to optimize a page that is: (('page_type', 'PLP/Category Page'),).```
+
+## Conclusion
 
 This demo illustrates how AI can optimize specific high-level SEO tasks, paving the way for broader applications in SEO and beyond. By automating complex decision-making processes, AI can significantly enhance efficiency and accuracy in various domains.
