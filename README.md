@@ -57,10 +57,10 @@ Update the target_url variable with the URL of the page you want to rank for thi
 
 Here's a breakdown of the main components of the script:
 
-search_google(query): Queries Google for the given keyword using the SERPER.dev API and returns the URLs of organic search results.
-scrape_content(url): Scrapes the headings and text content from the provided URL.
-analyze_content(headings, text): Uses prompts and crawled data to classify the type of page based on its content.
-Main Execution: Combines the above functions to compare the target page with the top-ranking pages and provides a final assessment.
+**search_google(query):** Queries Google for the given keyword using the SERPER.dev API and returns the URLs of organic search results.
+**scrape_content(url)** Scrapes the headings and text content from the provided URL.
+**analyze_content(headings, text):** Uses prompts and crawled data to classify the type of page based on its content.
+**Main Execution:** Combines the above functions to compare the target page with the top-ranking pages and provides a final assessment.
 
 ### Example Output: 
 
